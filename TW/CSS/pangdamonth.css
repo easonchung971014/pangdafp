@@ -1,0 +1,59 @@
+.oil img{
+    height: 550px;
+    width: 700px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+ 
+
+.oil  img{
+    margin-left: 50px;
+    width:500px;
+   background-color: rgb(129, 74, 131);
+   border-radius: 20px;
+}
+
+.oil .month{
+    
+    padding: 2px;
+    background-color: brown;
+    color:white;
+    width: 150px;
+    size: 10px;
+    /* text-align: center;  */
+}
+
+.oil .hea{
+    margin-left: 50px;
+    color:rgb(129, 74, 131);
+    font-size: 35px;
+}
+
+.oil .pi{
+    
+    font-size: 30px;
+    text-align: center;
+}
+
+.oil .good{
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.oil .row .col-xs-12 .text-muted{
+    padding: 100px;
+}
+
+.pa{
+    margin-left: 20px;
+}
+
+.oil .hq{
+    transform: translateY(-1000px);
+    margin-left: 15rem;
+}
+
+.oil{
+    margin-left: 50px;
+    margin-right: 50px;
+}
