@@ -1,0 +1,209 @@
+/* 版面設定 */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.4s all linear;
+    font-size: 22px; 
+    font-family: Helvetica;
+}
+::selection {
+	background: rgb(151, 93, 156);
+	color: rgb(255, 255, 255);
+}
+::-moz-selection {
+	background: rgb(151, 93, 156);
+	color: rgb(255, 255, 255);
+}
+
+.th img{
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.th{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.th h1{
+    font-size: 40px;
+    color: rgb(146, 97, 156);
+    transform: translateY(-300px);
+    margin-left: 25rem;
+}
+
+.th h2{
+    font-size: 18px;
+    color: rgb(58, 58, 58);
+    transform: translateY(-300px);
+    margin-left: 25rem;
+    margin-right: 50px;
+}
+
+.th .uu{
+    transform: translateY(-290px);
+    margin-left: 25rem;
+    color: rgb(146, 97, 156);
+    font-size: 40px;
+}
+
+.th h3{
+    transform: translateY(-290px);
+    margin-left: 25rem;
+    color: rgb(146, 97, 156);
+    font-size: 40px;
+}
+
+.th .tc{
+    font-size: 40px;
+    color: rgb(146, 97, 156);
+    margin-left: 2rem;
+    transform: translateY(-10rem);
+}
+
+.th .op{
+    color:rgb(58, 58, 58);
+    font-size: 18px;
+    transform: translateY(-500px);
+}
+
+.th .ta{
+    font-size: 40px;
+    color: rgb(146, 97, 156);
+    margin-left: 25rem;
+    transform: translateY(-500px);
+}
+
+.th .yp{
+    color: rgb(58, 58, 58);
+    font-size: 18px;
+    margin-left: 50px;
+    transform: translateY(-220px);
+}
+
+.th .lp{
+    color:rgb(58, 58, 58);
+    font-size: 18px;
+    transform: translateY(-500px)
+}
+
+.footer{
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    margin-top: 200px;
+}
+
+.footer .social{
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer .h1{
+    text-align: center;
+}
+
+@media (max-width:600px){
+    .th img{
+        transform: translateY(30px);
+        height: 200px;
+        max-width: 100%;
+        margin-top: 80px;
+    }
+
+    .th .ut{
+        transform: translateY(600px);
+    }
+
+    .th h1{
+        font-size: 30px;
+        color: rgb(146, 97, 156);
+        text-align: center;
+        margin-left: 1px;
+        transform: translateY(40px);
+    }
+
+.th{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+    
+.th .ut{
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+    transform: translateY(300px);
+    margin: 2px;
+    text-align: center;
+}
+
+.th .uu{
+    margin-left: 16px;
+    color: rgb(146, 97, 156);
+    font-size: 20px;
+    text-align: center;
+    transform: translateY(120px);
+}
+
+.th .tc{
+    font-size: 16px;
+    color: rgb(146, 97, 156);
+    text-align: center;
+    margin-top: 0px;
+    transform: translateY(460px);
+}
+
+.th h3{
+    transform: translateY(-290px);
+    color: rgb(146, 97, 156);
+    font-size: 40px;
+}
+
+.th .op{
+    color:rgb(58, 58, 58);
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    transform: translateY(-150px);
+}
+
+.th .ta{
+    margin: 0px;
+    font-size: 16px;
+    color: rgb(146, 97, 156);
+    text-align: center;
+    transform: translateY(-150px);
+}
+
+.th .yp{
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    text-align: center;
+    transform: translateY(460px);
+    }
+
+.th .lp{
+    color:rgb(58, 58, 58);
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    transform: translateY(-100px);
+}
+
+.th .tu{
+    font-size: 16px;
+    text-align: center;
+    transform: translateY(-100px);
+    margin: 0px;
+}
+
+
+}
