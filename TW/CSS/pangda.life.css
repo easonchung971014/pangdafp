@@ -1,0 +1,10 @@
+.cat img{
+    display: block;
+    margin: auto;
+    width: 500px;
+    flex: 1 1 30px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 30px;
+}
+
