@@ -1,0 +1,72 @@
+.pages{
+    margin-top: 2rem;
+    margin: right;
+}
+
+
+.pages .new{
+    color: #fff;
+    background: #377e66;
+    border-radius: 50%;
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.pages .new:hover{
+    background: #65af97;
+    color: #fff;
+}
+
+.pages .now{
+    color: #377e66;
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 4rem;
+}
+
+.pages .next{
+    color: #377e66;
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 6rem;   
+}
+
+.pages .thir{
+    color: #377e66;
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+}
+
+.pages .thir:hover{
+    color: #377e66;
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+    height: 1rem;
+    width: 1rem;
+    margin-left: 5rem;
+}
+
+.pages .now:hover{
+    color: #377e66;
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+    height: 1rem;
+    width: 1rem;
+    margin-left: 4rem;
+}
+
+.pages .last{
+    color: #377e66;
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    margin-left: 2rem;
+}
