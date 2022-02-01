@@ -1,0 +1,303 @@
+.oil{
+    margin: 40px;
+}
+
+.oil .pangdafp-logo{
+    width: 15rem;
+    display: block;
+    margin: auto;
+}
+
+.oil .month .hight{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.oil .everymonth{
+    width: 600px;
+    margin-left: 2%;
+    display: block;
+    border-radius: 20px;;
+}
+
+.oil .everymonthtitle{
+    width: 15rem;
+    display: block;
+    margin-top: -20.5rem;
+    margin-left: 32rem;
+    border-radius: 20px;
+}
+
+.oil .lemongrass{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 22rem;
+    margin-top: 25px;
+}
+
+.oil .familygood{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 22rem;
+}
+
+.oil .btn100{
+    color: #1e1e1e;
+    border: 1px solid #377e66;
+    border-radius: 30px;
+    color: #377e66;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-left: 32rem;
+}
+
+.oil .btn100:hover{
+    color: #1e1e1e;
+    border: 1px solid #377e66;
+    background-color: #377e66;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-left: 32rem;
+}
+
+.oil .lite{
+    border-bottom: 1px solid #dadada;
+    width: 1200px;
+    margin: auto;
+}
+
+.oil .star{
+    width: 600px;
+    display: block;
+margin-left: 50%;
+    border-radius: 20px;;
+}
+
+.oil .startitle{
+    width: 15rem;
+    display: block;
+    margin-top: -22rem;
+    border-radius: 20px;
+    margin-left: 20%;
+}
+
+.oil .fennel{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: -45%;
+}
+
+.oil .monthgood{
+    font-size: 30px;
+    margin-left: 21.5%;
+}
+
+.oil .btn111{
+    color: #1e1e1e;
+    border: 1px solid #377e66;
+    border-radius: 30px;
+    color: #377e66;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-left: 12rem;
+}
+
+.oil .btn111:hover{
+    color: #1e1e1e;
+    border: 1px solid #377e66;
+    background-color: #377e66;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-left: 32rem;
+}
+
+.oil .newthing{
+    width: 900px;
+    height: 350px;
+    display: block;
+    border: 1px solid #8f8f8f;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.oil .newthing .image1{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border: 1px solid #b4b4b4;
+}
+
+.oil .newthing .tellyou{
+    display: block;
+    margin-top: -200px;
+    font-size: 20px;
+    margin-left: 235px;
+    color:#875591
+}
+
+.oil .newthing .image2{
+    width: 200px;
+    height: 200px;
+    margin-left: 50%;
+    border: 1px solid #b4b4b4;
+    margin-top: -155px;
+}
+
+.oil .newthing .lock{
+    width: 200px;
+    margin-left: 75%;
+}
+
+.oil .newthing .hahu{
+    color: rgb(133, 124, 102);
+    font-size: 20px;
+    
+}
+
+.oil .newthing .mess{
+    margin-left: -120px;
+}
+
+.oil .newthing li{
+    font-size: 15px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.footer{
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+}
+@media (max-width:600px){
+    
+.oil{
+    margin: 0px;
+}
+
+    .oil .pangdafp-logo{
+        display: block;
+        margin: auto;
+        width: 10rem;
+    }
+
+    .oil .hight{
+        text-align: center;
+    }
+
+    .oil .everymonth{
+        display: block;
+        margin: auto;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .oil .everymonthtitle{
+        display: block;
+        margin: auto;
+        width: 6rem;
+        border-radius: 0;
+    }
+
+    .oil .lemongrass{
+        text-align: center;
+        padding-top: 20px;
+        display: block;
+        margin: auto;
+    }
+
+    .oil .familygood{
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .oil .lite{
+        margin-top: -200px;
+        width: 12rem;
+    }
+
+    .oil .star{
+        display: block;
+        margin: auto;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .oil .startitle{
+        display: block;
+        margin: auto;
+        width: 6rem;
+        border-radius: 0;
+    }
+
+    .oil .monthgood{
+        margin-left: 5%;
+    }
+
+    .oil .newthing{
+        width: 250px;
+        height: 800px;
+    }
+
+    .oil .newthing .mess{
+        display: block;
+        margin: auto;
+        margin-top: -70px;
+    }
+
+    .oil .newthing .image1{
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+    }
+
+    .oil .newthing .tellyou{
+        display: block;
+        margin: auto;
+    }
+
+    .oil .newthing .image2{
+        display: block;
+        margin: auto;
+        margin-top: -12rem;
+        width: 150px;
+        height: 150px;
+    }
+
+    .oil .newthing .lock{
+        display: block;
+        padding-top: 10em;
+        margin: auto;
+    }
+
+    .oil .newthing li{
+        text-align: center;
+        margin-top: 9rem;
+    }
+}
