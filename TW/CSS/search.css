@@ -1,3 +1,5 @@
+
+
 body{
   background-color: rgb(71, 71, 71);
   
@@ -146,52 +148,8 @@ span{
 }
 
 @media (max-width:600px){
-  /* 第一區 header*/
- #menu-bar{
-     display: initial;
-     position: absolute;
-     right:10px;
-     top:4px;
-     }
+ 
 
-     header .navbar{
-         position: absolute;
-         top:33px; left:0 ; right:0;
-         /* background-color: #377e66; */
-         height: 50rem;
-         border-top:3px solid rgb(59, 59, 59);
-         background-color: rgb(59,59, 59);
-         /* 隱藏下拉式選單 */
-
-         clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
-         }
-
-     header .logo{
-         color:rgb(177, 177, 177);
-         text-align: center;
-     }
-
-     header img{
-         width: 40px; height:30px;
-         
-     }
-
-     header .ti{
-         color: rgb(177, 177, 177);
-         font-size: 20px;
-     }
-
-     header .navbar a{
-         /* 疊起來 */
-         display: block;
-         font-size:11px;
-         font-weight: normal;
-         color:rgb(177, 177, 177);
-         margin:10px; padding:6px;
-         /* background-color: #377e66; */
-         background-color: rgb(59, 59, 59);
-         border-bottom:0.4px solid rgb(204, 204, 204);
-     }
 
      #mySearch{
          margin-left: 10%;
