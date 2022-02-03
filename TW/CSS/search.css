@@ -192,25 +192,6 @@ span{
          background-color: rgb(59, 59, 59);
          border-bottom:0.4px solid rgb(204, 204, 204);
      }
-     header .navbar.active{
-         clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
-         padding:10px;
-     }
-
-     .navbar{
-         position: absolute;
-         top:33px; left:0 ; right:0;
-         /* background-color: #377e66; */
-         height: 50rem;
-         border-top:3px solid rgb(59, 59, 59);
-         /* 隱藏下拉式選單 */
-         clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
-         }
-
-     header .ti{
-         color: rgb(177, 177, 177);
-         font-size: 20px;
-     }
 
      #mySearch{
          margin-left: 10%;
@@ -230,13 +211,5 @@ span{
          /* background-color: #377e66; */
          /* background-color: rgb(59, 59, 59); */
          border-bottom:0.4px solid rgb(204, 204, 204);
-     }
-     header .navbar.active{
-         clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
-         padding:10px;
-     }
-
-     span{
-       display: none;
      }
     }
