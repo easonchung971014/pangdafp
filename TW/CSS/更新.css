@@ -39,9 +39,37 @@ img{
 }
 
 .image{
-    width:300px;
-    animation: moving 10s linear infinite;
+        width:280px;
+        
+        height: 279px;
+        
+        background: url(shishi.png) no-repeat;
+        
+        border-radius:140px;
+        
+        -webkit-animation:run 6s linear 0s infinite;
+        
+        
+        
+        
 }
+.image:hover{
+        -webkit-animation-play-state:paused;
+        
+        }
+        
+        @-webkit-keyframes run{
+        from{
+        -webkit-transform:rotate(0deg);
+        
+        }
+        
+        to{
+        -webkit-transform:rotate(360deg);
+        
+        }
+        
+        }
 
  @keyframes moving{
     0%{transform:translateX(0rem);}

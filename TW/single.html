@@ -16,7 +16,7 @@
     <!-- CSS連結 -->
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/single.css">
-    
+    <link rel="stylesheet" href="CSS/search.css">
 
     
 </head>
@@ -27,25 +27,67 @@
         <!-- rwd時的按鈕 -->
         <div id="menu-bar" class="fas fa-bars"></div>
             <nav class="navbar">
-                <a href="pangdafp.html">首頁</a>
-                <a href="the-best.html">推薦精油</a>
-                <a href="month.html">每月資訊</a>
-                <a href="single.html">單方精油</a>
-                <!-- <a href="#gallery">複方精油知識</a> -->
-                <a href="pangda-daily.html">胖達日常專欄</a>
-                <!-- <a href="#order">訂購</a> -->
+                
+                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="搜尋.." title="Type in a category">
+                <ul id="myMenu">
+                    <li><a href="pangdafp.html">首頁</a></li>
+                    <li><a href="the-best.html">推薦精油</a></li>
+                    <li><a href="month.html">每月資訊</a></li>
+                    <li><a href="single.html">單方精油</a></li>
+                    <!-- <a href="#gallery">複方精油知識</a> -->
+                    <li><a href="pangda-daily.html">胖達日常專欄</a></li>
+                    <!-- <li><a href="search.html">搜尋</a></li> -->
+                    <!-- <a href="#order">訂購</a> -->
+                </ul>
+                
             </nav>
         
             <br>
     </header>
+<!-- 搜尋引擎 -->
+<div class="search">
+<input type="text" id="mysearch" onkeyup="myFunction()"  placeholder="搜尋精油名稱" title="Type in a category">
 
+    <h2>搜尋建議 / 結果</h2>
+
+<br>
+<a href="#gallery"><img src="image/下.png" class="down"><h1>直接往下</h1></a>
+<br>
+    <ul id="myse">
+        <li><a href="#1">羅勒精油</a></li>
+        <li><a href="#2">肉桂精油</a></li>
+        <li><a href="#3">丁香精油</a></li>
+        <li><a href="#4">尤加利精油</a></li>
+        <li><a href="#5">乳香精油</a></li>
+        <li><a href="#6">天竺葵精油</a></li>
+        <li><a href="#7">葡萄柚精油</a></li>
+        <li><a href="#8">薰衣草精油</a></li>
+        <li><a href="#9">檸檬精油</a></li>
+        <li><a href="#10">檸檬草精油</a></li>
+        <li><a href="#11">馬鬱蘭精油</a></li>
+        <li><a href="#12">茶樹精油</a></li>
+        <li><a href="#13">沒藥精油</a></li>
+        <li><a href="#14">野橘精油</a></li>
+        <li><a href="#15">牛至精油</a></li>
+        <li><a href="#16">薄荷精油</a></li>
+        <li><a href="#17">迷迭香精油</a></li>
+        <li><a href="#18">檀香木精油</a></li>
+        <li><a href="#19">百里香精油</a></li>
+        <li><a href="#20">伊蘭伊蘭精油</a></li>
+        <li><a href="#21">永久花精油</a></li>
+        <li><a href="#22">快樂鼠尾草精油</a></li>
+        <li><a href="#23">岩蘭草精油</a></li> 
+        <li><a href="#24">胡荽精油</a></li> 
+    </ul>
+<br>
+</div>    
 
 <!-- 第五區 圖片 -->
 <section class="gallery" id="gallery"><br><br>
     <h1 class="heading">單方精油</h1>
     <div class="box-container">
         <!-- 第一張圖片 -->
-        <div class="box">
+        <div class="box" id="1">
             <img src="image/羅勒精油.png" alt="">
 
             <div class="content">
@@ -55,7 +97,7 @@
         </div>
 
          <!-- 第二張圖片 -->
-         <div class="box">
+         <div class="box" id="2">
             <img src="image/肉桂精油.png" alt="">
 
             <div class="content">
@@ -65,7 +107,7 @@
         </div>
 
         <!-- 第三張圖片 -->
-        <div class="box">
+        <div class="box" id="3">
             <img src="image/丁香精油.png" alt="">
 
             <div class="content">
@@ -79,7 +121,7 @@
 <section class="gallery" id="gallery"></section>
     <div class="box-container">
         <!-- 第一張圖片 -->
-        <div class="box">
+        <div class="box" id="4">
             <img src="image/尤加利精油.png" alt="">
 
             <div class="content">
@@ -89,7 +131,7 @@
         </div>
 
          <!-- 第二張圖片 -->
-         <div class="box">
+         <div class="box" id="5">
             <img src="image/乳香精油.png" alt="">
 
             <div class="content">
@@ -101,7 +143,7 @@
          
 
         <!-- 第三張圖片 -->
-        <div class="box">
+        <div class="box" id="6">
             <img src="image/天竺葵精油.png" alt="">
 
             <div class="content">
@@ -115,7 +157,7 @@
     <section class="gallery" id="gallery"></section>
     <div class="box-container">
         <!-- 第一張圖片 -->
-        <div class="box">
+        <div class="box" id="7">
             <img src="image/葡萄柚精油.png" alt="">
 
             <div class="content">
@@ -125,7 +167,7 @@
         </div>
 
          <!-- 第二張圖片 -->
-         <div class="box">
+         <div class="box" id="8">
             <img src="image/薰衣草精油.png" alt="">
 
             <div class="content">
@@ -135,7 +177,7 @@
         </div>
 
         <!-- 第三張圖片 -->
-        <div class="box">
+        <div class="box" id="9">
             <img src="image/檸檬精油.png" alt="">
 
             <div class="content">
@@ -149,7 +191,7 @@
     <section class="gallery" id="gallery"></section>
     <div class="box-container">
         <!-- 第一張圖片 -->
-        <div class="box">
+        <div class="box" id="10">
             <img src="image/檸檬草精油.png" alt="">
 
             <div class="content">
@@ -159,7 +201,7 @@
         </div>
 
          <!-- 第二張圖片 -->
-         <div class="box">
+         <div class="box" id="11">
             <img src="image/馬鬱蘭精油.png" alt="">
 
             <div class="content">
@@ -169,7 +211,7 @@
         </div>
 
         <!-- 第三張圖片 -->
-        <div class="box">
+        <div class="box" id="12">
             <img src="image/茶樹精油.png" alt="">
 
             <div class="content">
@@ -181,7 +223,7 @@
         <section class="gallery" id="gallery"></section>
     <div class="box-container">
         <!-- 第一張圖片 -->
-        <div class="box">
+        <div class="box" id="13">
             <img src="image/沒藥精油.png" alt="">
 
             <div class="content">
@@ -191,7 +233,7 @@
         </div>
 
          <!-- 第二張圖片 -->
-         <div class="box">
+         <div class="box" id="14">
             <img src="image/野橘精油.png" alt="">
 
             <div class="content">
@@ -201,7 +243,7 @@
         </div>
 
         <!-- 第三張圖片 -->
-        <div class="box">
+        <div class="box" id="15">
             <img src="image/牛至精油.png" alt="">
 
             <div class="content">
@@ -211,9 +253,9 @@
         </div>
 </div>
         <section class="gallery" id="gallery"></section>
-    <div class="box-container">
+    <div class="box-container" >
         <!-- 第一張圖片 -->
-        <div class="box">
+        <div class="box" id="16">
             <img src="image/薄荷精油.png" alt="">
 
             <div class="content">
@@ -223,7 +265,7 @@
         </div>
 
          <!-- 第二張圖片 -->
-         <div class="box">
+         <div class="box" id="17">
             <img src="image/迷迭香精油.png" alt="">
 
             <div class="content">
@@ -233,7 +275,7 @@
         </div>
 
         <!-- 第三張圖片 -->
-        <div class="box">
+        <div class="box" id="18">
             <img src="image/檀香木精油.png" alt="">
 
             <div class="content">
@@ -245,7 +287,7 @@
         <section class="gallery" id="gallery"></section>
     <div class="box-container">
         <!-- 第一張圖片 -->
-        <div class="box">
+        <div class="box" id="19">
             <img src="image/百里香精油.png" alt="">
 
             <div class="content">
@@ -255,7 +297,7 @@
         </div>
 
          <!-- 第二張圖片 -->
-         <div class="box">
+         <div class="box" id="20">
             <img src="image/伊蘭伊蘭精油.png" alt="">
 
             <div class="content">
@@ -265,7 +307,7 @@
         </div>
 
         <!-- 第三張圖片 -->
-        <div class="box">
+        <div class="box" id="21">
             <img src="image/永久花精油.png" alt="">
 
             <div class="content">
@@ -277,7 +319,7 @@
         <section class="gallery" id="gallery"></section>
     <div class="box-container">
         <!-- 第一張圖片 -->
-        <div class="box">
+        <div class="box" id="22">
             <img src="image/快樂鼠尾草精油.png" alt="">
 
             <div class="content">
@@ -287,7 +329,7 @@
         </div>
 
          <!-- 第二張圖片 -->
-         <div class="box">
+         <div class="box" id="23">
             <img src="image/岩蘭草精油.png" alt="">
 
             <div class="content">
@@ -297,7 +339,7 @@
         </div>
 
         <!-- 第三張圖片 -->
-        <div class="box">
+        <div class="box" id="24">
             <img src="image/胡荽精油.png" alt="">
 
             <div class="content">
@@ -327,5 +369,5 @@
 <!-- 回上層按鈕-->
 <a href="single.html" class="fas fa-angle-up" id="scroll-up"></a>
 <!-- js連結 -->
-<script src="JS/script.js"></script>
+<script src="JS/search.js"></script>
 </html>
