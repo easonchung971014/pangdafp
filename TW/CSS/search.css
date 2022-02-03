@@ -5,6 +5,11 @@ body{
   
 }
 
+.logo{
+  display: block;
+  margin: auto;
+}
+
 header{
   font-size: 10px;
   position: fixed;
@@ -170,4 +175,9 @@ span{
          /* background-color: rgb(59, 59, 59); */
          border-bottom:0.4px solid rgb(204, 204, 204);
      }
+
+     .logo{
+      display: block;
+      margin-left: 40%
+    }
     }

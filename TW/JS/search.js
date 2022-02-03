@@ -21,7 +21,7 @@ if(window.scrollY>85){
         document.querySelector('#scroll-up').classList.remove('active');
     }
 
-}
+};
 
 function myFunction() {
     // Declare variables
