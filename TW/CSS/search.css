@@ -7,7 +7,7 @@ body{
 
 .logo{
   display: block;
-  margin: auto;
+  margin-left: 50%;
 }
 
 header{
