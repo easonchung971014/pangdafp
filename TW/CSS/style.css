@@ -117,12 +117,17 @@ body{
     }
     
     #mySearch{
-        margin-left: -221%;
-        font-size: 20px;
+        margin-left: -271%;
+        font-size: 15px;
         z-index: 100000;
         border-radius: 5px;
+        padding: 5px;
         background-color: rgb(49, 49, 49);
         color: rgb(201, 201, 201);
+    }
+
+    input::-webkit-input-placeholder{
+        color: #fffb;
     }
     
     #myMenu li a{
