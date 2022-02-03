@@ -30,6 +30,13 @@ function myFunction() {
     filter = input.value.toUpperCase();
     ul = document.getElementById("myse");
     li = ul.getElementsByTagName("li");
+
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("mySearch");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myMenu");
+    li = ul.getElementsByTagName("li");
   
     // Loop through all list items, and hide those who don't match the search query
     for (i = 0; i < li.length; i++) {
