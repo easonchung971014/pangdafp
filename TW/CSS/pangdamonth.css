@@ -1,4 +1,4 @@
-#myMenu{
+/* #myMenu{
     font-size: 15px;
         position: fixed;
         top: 0; left: 0; right: 0;
@@ -7,7 +7,7 @@
         justify-content: center; 
         align-items: center;
         padding: 0px;
-        /* background:#37ad86; */
+        background:#37ad86;
         list-style-type: none;
         margin-left: 10%;
         margin-top: 5px;
@@ -30,10 +30,10 @@
     font-size:15px;
         font-weight: 900;
         color:rgb(255, 255, 255);
-        /* color:#30705b; */
+         color:#30705b;
         transition: 1s;
-        /* background-color: #37ad86; */
-}
+        background-color: #37ad86; 
+} */
 
 .oil{
     margin: 40px;
@@ -249,7 +249,7 @@ margin-left: 50%;
             font-size: 20px;
         }
 
-        #mySearch{
+        /* #mySearch{
             margin-left: 10%;
             z-index: 1000;
         }
@@ -260,14 +260,14 @@ margin-left: 50%;
         }
 
         #myMenu li a{
-            /* 疊起來 */
+            /* 疊起來
             display: block;
             font-size:15px;
             color:rgb(177, 177, 177);
-            /* background-color: #377e66; */
-            /* background-color: rgb(59, 59, 59); */
+            background-color: #377e66;
+            background-color: rgb(59, 59, 59);
             border-bottom:0.4px solid rgb(204, 204, 204);
-        }
+        } */
         header .navbar.active{
             clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
             padding:10px;
