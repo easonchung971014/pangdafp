@@ -152,6 +152,30 @@ span{
   display: none;
 }
 
+.first-page-div{
+  border-radius: 8px;
+  height: 40px;
+  width: 70px;
+  margin-top: 70px;
+  margin-left: 50%;
+  display: block;
+  padding: 5px;
+}
+
+.first-page-div .first-page{
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  display: block;
+  text-align: center;
+  opacity: 0.5;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 8px;
+}
+
+.first-page-div .first-page:hover{
+  opacity: 2;
+}
+
 @media (max-width:600px){
  
 

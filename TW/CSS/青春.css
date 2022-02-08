@@ -9,201 +9,191 @@
     font-size: 22px; 
     font-family: Helvetica;
 }
-::selection {
-	background: rgb(151, 93, 156);
-	color: rgb(255, 255, 255);
-}
-::-moz-selection {
-	background: rgb(151, 93, 156);
-	color: rgb(255, 255, 255);
+
+.line-70{
+    border-top: 5px solid rgb(172, 125, 173);
+    border-radius: 20px 20px 0 0;
+    width: 500px;
+    margin-left: 8%;
+    transform: translateY(100px);
 }
 
-.th img{
-    height: 350px;
+.holy-basil-image{
     margin-top: 100px;
-    margin-left: 20px;
+    height: 500px;
+    margin-left: 8%;
+    border: 1px solid #00000b0e
 }
 
-.th{
-    margin-top: 70px;
-    margin-left: 70px;
+.holy-basil{
+    margin: 20px;
 }
 
-.th h1{
-    font-size: 40px;
-    color: rgb(146, 97, 156);
-    transform: translateY(-300px);
-    margin-left: 25rem;
+.holy-basil h2{
+    display: block;
+    font-size: 50px;
+    color: rgb(172, 125, 173);
+    margin-left: 50%;
+    margin-top: -550px;
+    margin-bottom: 20px;
 }
 
-.th h2{
-    font-size: 18px;
-    color: rgb(58, 58, 58);
-    transform: translateY(-300px);
-    margin-left: 25rem;
-    margin-right: 50px;
+.tell-holy{
+    margin-left: 50%;
 }
 
-.th .uu{
-    transform: translateY(-290px);
-    margin-left: 25rem;
-    color: rgb(146, 97, 156);
-    font-size: 40px;
+.line-50{
+    border-bottom: 1px solid #00000b34;
+    margin-top: 20px;
+    width: 650px;
+    margin-left: 50%;
+
 }
 
-.th h3{
-    transform: translateY(-290px);
-    margin-left: 25rem;
-    color: rgb(146, 97, 156);
-    font-size: 40px;
-}
-
-.th .tc{
-    font-size: 40px;
-    color: rgb(146, 97, 156);
-    margin-left: 2rem;
-    transform: translateY(-10rem);
-}
-
-.th .op{
-    color:rgb(58, 58, 58);
-    font-size: 18px;
-    transform: translateY(-500px);
-}
-
-.th .ta{
-    font-size: 40px;
-    color: rgb(146, 97, 156);
-    margin-left: 25rem;
-    transform: translateY(-500px);
-}
-
-.th .yp{
-    color: rgb(58, 58, 58);
-    font-size: 18px;
-    margin-left: 50px;
-    transform: translateY(-220px);
-}
-
-.th .lp{
-    color:rgb(58, 58, 58);
-    font-size: 18px;
-    transform: translateY(-500px)
-}
-
-.footer{
-    padding: 10px;
-    background-color: rgb(231, 231, 231);
-    text-align: center;
-    margin-top: 200px;
-}
-
-.footer .social{
-    display: flex;
-    
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.footer .h1{
-    text-align: center;
-}
-
-@media (max-width:600px){
-    .th img{
-        transform: translateY(30px);
-        height: 200px;
-        max-width: 100%;
-        margin-top: 80px;
-    }
-
-    .th .ut{
-        transform: translateY(600px);
-    }
-
-    .th h1{
-        font-size: 30px;
-        color: rgb(146, 97, 156);
-        text-align: center;
-        margin-left: 1px;
-        transform: translateY(40px);
-    }
-
-.th{
-    margin-top: 10px;
-    margin-left: 10px;
-}
-    
-.th .ut{
-    font-size: 16px;
-    color: rgb(58, 58, 58);
-    transform: translateY(300px);
-    margin: 2px;
-    text-align: center;
-}
-
-.th .uu{
-    margin-left: 16px;
-    color: rgb(146, 97, 156);
+.tell-holy .a{
+    color: #00000b;
     font-size: 20px;
-    text-align: center;
-    transform: translateY(120px);
 }
 
-.th .tc{
-    font-size: 16px;
-    color: rgb(146, 97, 156);
-    text-align: center;
-    margin-top: 0px;
-    transform: translateY(460px);
+.it-have{
+    margin-top: 20px;
+    margin-left: 50%;
 }
 
-.th h3{
-    transform: translateY(-290px);
-    color: rgb(146, 97, 156);
-    font-size: 40px;
+.it-have .h1{
+    color:rgb(172, 125, 173);
+    margin-bottom: 20px;
 }
 
-.th .op{
-    color:rgb(58, 58, 58);
-    font-size: 16px;
-    text-align: center;
-    margin: 0px;
-    transform: translateY(-150px);
+.it-have .li{
+    font-size: 20px;
 }
 
-.th .ta{
-    margin: 0px;
-    font-size: 16px;
-    color: rgb(146, 97, 156);
-    text-align: center;
-    transform: translateY(-150px);
+.about-basil{
+    margin-top: 20px;
+    margin-left: 50%;
 }
 
-.th .yp{
-    color: rgb(58, 58, 58);
-    font-size: 16px;
-    text-align: center;
-    transform: translateY(460px);
+.about-basil .h1{
+    color:rgb(172, 125, 173);
+    margin-bottom: 20px;
+}
+
+.about-basil .a{
+    font-size: 20px;
+    color: #00000b
+}
+
+.how-to-use{
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+.how-to-use .h1{
+    color:rgb(172, 125, 173);
+    margin-bottom: 20px;
+}
+
+.how-to-use .li{
+    font-size: 20px;
+}
+
+.take-care{
+    display: block;
+    margin-left: 8%;
+    margin-right: 55%;
+    margin-top: -150px;
+}
+
+.take-care .h1{
+    color: rgb(172, 125, 173);
+    margin-bottom: 20px;
+}
+
+.take-care .a{
+    font-size: 20px;
+}
+
+@media (max-width: 600px){
+    .holy-basil-image{
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+        height: 300px;
     }
 
-.th .lp{
-    color:rgb(58, 58, 58);
-    font-size: 16px;
-    text-align: center;
-    margin: 0px;
-    transform: translateY(-100px);
-}
+    .line-70{
+        margin-top: -20px;
+        width: 300px;
+        margin: auto;
+    }
 
-.th .tu{
-    font-size: 16px;
-    text-align: center;
-    transform: translateY(-100px);
-    margin: 0px;
-}
+    .holy-basil{
+        margin: 0;
+    }
 
+    .holy-basil h2{
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
 
+    .tell-holy{
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .tell-holy span{
+        font-size: 24px;
+    }
+
+    .it-have{
+        margin-left: 0;
+    }
+
+    .line-50{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .it-have h1{
+        text-align: center;
+    }
+
+    .it-have li{
+        text-align: left;
+        margin-left: 25%;
+    }
+
+    .about-basil{
+        margin-left: 0;
+    }
+
+    .about-basil h1{
+        text-align: center;
+    }
+
+    .how-to-use{
+        margin-left: 0;
+    }
+
+    .how-to-use h1{
+        text-align: center;
+    }
+
+    .how-to-use li{
+        margin-left: 10%;
+        text-align: left;
+    }
+
+    .take-care{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .take-care h1{
+        text-align: center;
+    }
 }
