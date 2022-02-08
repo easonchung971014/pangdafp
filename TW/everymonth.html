@@ -5,39 +5,241 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="image/pangdafp.ico" />
-    <title>每月資訊</title>
+    <title>2月主打星</title>
     <link rel="alternate" href="" hreflang="zh-TW" />
 
     <!-- fonason -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- CSS連結 -->
-    <link rel="stylesheet" href="CSS/pangdamonth.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="my.css"> 
+    <link rel="stylesheet" href="CSS/everymonth.css">
 </head>
 <body>
-    <header>
-        <a href="pangdafp.html" class="logo"><img src="image/pangdafp.png" style="left: 20px"></a><h2 class="ti">胖達的香氛星球</h2>
-        <!-- rwd時的按鈕 -->
-        <div id="menu-bar" class="fas fa-bars"></div>
-            <nav class="navbar">
-                
-                <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="搜尋.." title="Type in a category">
-                <ul id="myMenu">
-                    <li><a href="pangdafp.html">首頁</a></li>
-                    <li><a href="the-best.html">推薦精油</a></li>
-                    <li><a href="month.html">每月資訊</a></li>
-                    <li><a href="single.html">單方精油</a></li>
-                    <!-- <a href="#gallery">複方精油知識</a> -->
-                    <li><a href="pangda-daily.html">胖達日常專欄</a></li>
-                    <!-- <li><a href="search.html">搜尋</a></li> -->
-                    <!-- <a href="#order">訂購</a> -->
+
+    <div class="nav-container">
+        <nav>
+            <ul class="mobile-nav">
+                <li>
+                    <div class="menu-icon-container">
+                        <div class="menu-icon">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="pangdafp.html" class="link-logo"></a>
+                </li>
+
+                <li>
+                    <a href="" class="link-bag"></a>
+                </li>
+            </ul>
+
+            <ul class="desktop-nav">
+
+            <li>
+                    
+                </li>
+                <li>
+                    
+                </li>
+                <li>
+                    <a href="pangdafp.html" class="link-logo"></a>
+                </li>
+                <li>
+                    <a href="pangdafp.html">首頁</a>
+                </li>
+                <li>
+                    <a href="pangda-daily.html">胖達日常專欄</a>
+                </li>
+                <li>
+                    <a href="single.html">單方精油</a>
+                </li>
+                <li>
+                    <a href="the-best.html">推薦精油</a>
+                </li>
+                <li>
+                    <a href="month.html">每月資訊</a>
+                </li>
+                <li>
+                    <a href="#" class="link-search"></a>
+                </li>
+                <li>
+                    <a href="#" class="link-bag"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- End of navigation menu items -->
+
+        <div class="search-container hide">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action=""> 
+                    <input type="text" placeholder="搜尋 pangdafp.com" id="mysearch" onkeyup="myfunction()" >
+                </form>
+            </div>
+            <div class="link-close"></div>
+
+            <div class="quick-links">
+                <h2>搜尋建議 / 結果</h2>
+                <ul id="myse">
+                    <li><a href="pangdafp.html">首頁 <span>g.3u,4</span></a></li>
+        <li><a href="the-best.html">推薦精油 <span>wjo au04ru/ u.6</span></a></li>
+        <li><a href="month.html">每月資訊 <span>ao3m,4y vmp4</span></a></li>
+        <li><a href="single.html">單方精油 <span>20 z; ru/ u.6</span></a></li>
+        <li><a href="pangda-daily.html">胖達日常專欄 <span>q;4286b4t;65j0 x06</span></a></li>
+        <li><a href="pangdafp.html#newYear">新年專區 <span>vup6su065j0 fm </span></a></li>
+        <li><a href="https://page.line.me/?accountId=ucu7865j&openerPlatform=native&openerKey=talkroom%3Amessage#mst_challenge=0gV3dJQGO41OOoZz0UqIqL0YdVvMLJPRdx9hxxsx-fk">line官方帳號 <span>lineej0 z; 5;4cl4</span></a></li>
+        <li><a href="single.html#1">1 羅勒精油 Basil <span>xji6xk4ru/ u.6</span></a></li>
+        <li><a href="single.html#2">2 肉桂精油 Clonnamon <span>b.4ejo4ru/ u.6</span></a></li>
+        <li><a href="single.html#3">3 丁香精油 Clove <span>2u/ vu; ru/ u.6</span></a></li>
+        <li><a href="single.html#4">4 尤加利精油 Eucalyputs <span>u.6ru8 xu4ru/ u.6</span></a></li>
+        <li><a href="single.html#5">5 乳香精油 Fankincense <span>bj4vu; ru/ u.6</span></a></li>
+        <li><a href="single.html#6">6 天竺葵精油 Geranium <span>wu0 5j6djo6ru/ u.6</span></a></li>
+        <li><a href="single.html#7">7 葡萄柚精油 Grapefruit <span>qj4wl6u.4ru/ u.6</span></a></li>
+        <li><a href="single.html#8">8 薰衣草精油 Lavender <span>vmp u hl3ru/ u.6</span></a></li>
+        <li><a href="single.html#9">9 檸檬精油 Lemon <span>su/6a/6ru/ u.6</span></a></li>
+        <li><a href="single.html#10">10 檸檬草精油 Lemongrass <span>su/6a/6hl3ru/ u.6</span></a></li>
+        <li><a href="single.html#11">11 馬鬱蘭精油 Marjoram <span>a83m4x06ru/ u.6</span></a></li>
+        <li><a href="single.html#12">12 茶樹精油 Tea Tree <span>t86gj4ru/ u.6</span></a></li>
+        <li><a href="single.html#13">13 沒藥精油 Myrrh <span>ai4ul4ri/ u.6</span></a></li>
+        <li><a href="single.html#14">14 野橘精油 Wild Orange <span>u,3rm6ri/ u.6</span></a></li>
+        <li><a href="single.html#15">15 牛至精油 Oregano <span>su.654ri/ u.6</span></a></li>
+        <li><a href="single.html#16">16 薄荷精油 Peppermint <span>1i4ck6ri/ u.6</span></a></li>
+        <li><a href="single.html#17">17 迷迭香精油 Rosemary <span>au62u,6vu; ri/ u.6</span></a></li>
+        <li><a href="single.html#18">18 檀香木精油 Sandalwood <span>w06vu; aj4ri/ u.6</span></a></li>
+        <li><a href="single.html#19">19 百里香精油 Thyme <span>193xu3vu; ri/ u.6</span></a></li>
+        <li><a href="single.html#20">20 伊蘭伊蘭精油 Ylang Ylang <span>u x06u x06ri/ u.6</span></a></li>
+        <li><a href="single.html#21">21 永久花精油 Helichrysum <span>m/3ru.3cj8 ri/ u.6</span></a></li>
+        <li><a href="single.html#22">22 快樂鼠尾草精油 Clary Sage <span>dj94xk4gj3jo3hl3ri/ u.6</span></a></li>
+        <li><a href="single.html#23">23 岩蘭草精油 Vetiver <span>u06x06hl3ri/ u.6</span></a></li> 
+        <li><a href="single.html#24">24 胡荽精油 Coriander <span>cj6njo ri/ u.6</span></a></li> 
                 </ul>
-                
-            </nav>
+            </div>
+        </div>
+
+
+        <div class="mobile-search-container">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="搜尋 pangdafp.com" id="mySearch" onkeyup="myFunction()" >
+                </form>
+            </div>
+            <span class="cancel-btn">取消</span>
+
+            <div class="quick-links">
+                <h2>搜尋建議 / 結果</h2>
+                <ul id="mySe">
+                    <li><a href="pangdafp.html">首頁 <span>g.3u,4</span></a></li>
+        <li><a href="the-best.html">推薦精油 <span>wjo au04ru/ u.6</span></a></li>
+        <li><a href="month.html">每月資訊 <span>ao3m,4y vmp4</span></a></li>
+        <li><a href="single.html">單方精油 <span>20 z; ru/ u.6</span></a></li>
+        <li><a href="pangda-daily.html">胖達日常專欄 <span>q;4286b4t;65j0 x06</span></a></li>
+        <li><a href="pangdafp.html#newYear">新年專區 <span>vup6su065j0 fm </span></a></li>
+        <li><a href="https://page.line.me/?accountId=ucu7865j&openerPlatform=native&openerKey=talkroom%3Amessage#mst_challenge=0gV3dJQGO41OOoZz0UqIqL0YdVvMLJPRdx9hxxsx-fk">line官方帳號 <span>lineej0 z; 5;4cl4</span></a></li>
+        <li><a href="single.html#1">1 羅勒精油 Basil <span>xji6xk4ru/ u.6</span></a></li>
+        <li><a href="single.html#2">2 肉桂精油 Clonnamon <span>b.4ejo4ru/ u.6</span></a></li>
+        <li><a href="single.html#3">3 丁香精油 Clove <span>2u/ vu; ru/ u.6</span></a></li>
+        <li><a href="single.html#4">4 尤加利精油 Eucalyputs <span>u.6ru8 xu4ru/ u.6</span></a></li>
+        <li><a href="single.html#5">5 乳香精油 Fankincense <span>bj4vu; ru/ u.6</span></a></li>
+        <li><a href="single.html#6">6 天竺葵精油 Geranium <span>wu0 5j6djo6ru/ u.6</span></a></li>
+        <li><a href="single.html#7">7 葡萄柚精油 Grapefruit <span>qj4wl6u.4ru/ u.6</span></a></li>
+        <li><a href="single.html#8">8 薰衣草精油 Lavender <span>vmp u hl3ru/ u.6</span></a></li>
+        <li><a href="single.html#9">9 檸檬精油 Lemon <span>su/6a/6ru/ u.6</span></a></li>
+        <li><a href="single.html#10">10 檸檬草精油 Lemongrass <span>su/6a/6hl3ru/ u.6</span></a></li>
+        <li><a href="single.html#11">11 馬鬱蘭精油 Marjoram <span>a83m4x06ru/ u.6</span></a></li>
+        <li><a href="single.html#12">12 茶樹精油 Tea Tree <span>t86gj4ru/ u.6</span></a></li>
+        <li><a href="single.html#13">13 沒藥精油 Myrrh <span>ai4ul4ri/ u.6</span></a></li>
+        <li><a href="single.html#14">14 野橘精油 Wild Orange <span>u,3rm6ri/ u.6</span></a></li>
+        <li><a href="single.html#15">15 牛至精油 Oregano <span>su.654ri/ u.6</span></a></li>
+        <li><a href="single.html#16">16 薄荷精油 Peppermint <span>1i4ck6ri/ u.6</span></a></li>
+        <li><a href="single.html#17">17 迷迭香精油 Rosemary <span>au62u,6vu; ri/ u.6</span></a></li>
+        <li><a href="single.html#18">18 檀香木精油 Sandalwood <span>w06vu; aj4ri/ u.6</span></a></li>
+        <li><a href="single.html#19">19 百里香精油 Thyme <span>193xu3vu; ri/ u.6</span></a></li>
+        <li><a href="single.html#20">20 伊蘭伊蘭精油 Ylang Ylang <span>u x06u x06ri/ u.6</span></a></li>
+        <li><a href="single.html#21">21 永久花精油 Helichrysum <span>m/3ru.3cj8 ri/ u.6</span></a></li>
+        <li><a href="single.html#22">22 快樂鼠尾草精油 Clary Sage <span>dj94xk4gj3jo3hl3ri/ u.6</span></a></li>
+        <li><a href="single.html#23">23 岩蘭草精油 Vetiver <span>u06x06hl3ri/ u.6</span></a></li> 
+        <li><a href="single.html#24">24 胡荽精油 Coriander <span>cj6njo ri/ u.6</span></a></li> 
+                </ul>
+            </div>
+        </div>
         
-            <br>
-    </header>
+
+     </div>
+
+
+    <div class="overlay"></div>
+
+    <img src="image/2月主打星.jpg" alt="" srcset="">
+
+    <div class="about-everymonth-star">
+        <a>《甜茴香讓女人如花 每個階段都很美!》<span class="tenof">本月只要九折</span></a>
+        <a>
+            甜茴香富含茴香腦(Anethole)，香味獨特，能在重大時刻撫慰心靈和情
+            感，也能舒緩女性週期不適，對於肌膚保養有很好的效果，是所有女性
+            必備的精油，因此又被稱為女性之友，能解決女人在各個階段面對的問題。</a>
+
+            <h1>主要功效</h1>
+            <li>舒緩肌膚乾癢不適</li>
+            <li>為身心靈帶來活力與平衡</li>
+            <li>獨特的香氣及風味，可鼓舞身心</li>
+            <li>熱敷或按摩於腹部，可調理並放鬆</li>
+
+            <p>《2022/02 月主打星 甜茴香精油 15ml，原會員價 <span style="text-decoration: line-through;" class="money">NT$ 590；PV：18</span>，本月九折優惠只要 NT$ 531；PV：16.2，請把握機會》</p>
+
+        <div class="you-can-use-like-this">
+            <h2>-你可以這樣用-</h2>
+
+            <li>完美曲線<br><a>
+                用稀釋後的甜茴香精油按摩，能幫助促進循環和肌
+                膚代謝，讓妳維持理想中的完美體態。</a></li>
+            <li>母愛爆發<br><a>
+                哺育孩子是媽媽會面臨的重大時刻，但總會有感到
+                挫折、不順的時候。甜茴香精油的香氣，能帶來激
+                勵的力量，支持心力交瘁的媽媽們，更有自信和毅
+                力的度過漫長的哺育之路。</a></li>
+            <li>舒緩不適<br><a>
+                遇到週期不適，就用甜茴香來呵護自己。將1滴甜茴
+                香以分餾椰子油稀釋後，輕輕地在腹部按摩，香氛
+                有助於身心的平衡，舒緩女性週期所產生的心情不
+                適，帶來放鬆的感覺。</a></li>
+            <li>美麗肌膚<br><a>
+                將 1 滴甜茴香，搭配青春無齡保濕霜一起塗抹在臉
+                部細紋處，能使肌膚緊緻有光澤，強化保濕度以預防
+                老化，散發年輕光采。</a></li>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <section class="footer" id="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/panda1070210/"><i class="fab fa-facebook-square" style="color:#377e66; font-size: 30px; " title="胖達的香氛星球FB"></i></a>
+            <a href="https://page.line.me/?accountId=ucu7865j&openerPlatform=native&openerKey=talkroom%3Amessage#mst_challenge=0gV3dJQGO41OOoZz0UqIqL0YdVvMLJPRdx9hxxsx-fk" title="胖達的香氛星球LINE官方帳號"><i class="fab fa-line" style="color:#377e66; font-size:30px;"></i></a>
+            <a href="https://www.youtube.com/channel/UCMIN2AKQIMf6d-8WD-n_d1w"><i class="fab fa-youtube-square" style="color:#377e66; font-size: 30px;" title="胖達的香氛星球YouTube"></i></a>
+    
+    
+        </div>
+        <h1 class="credit" style="color:#377e66">&copy;2021 pangdafp Inc. 保留所有權力</h1>
+        <a href="user.html"><h6>使用條款</h6></a>
+    </section>
+    
+    
 
     </body>
-    
+    <script src="JS/script.js"></script>
+    <script src="main.js"></script>
+
     </html>

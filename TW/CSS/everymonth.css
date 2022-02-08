@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.4s all linear;
+    /* transition: 0.6s all cubic-bezier(0, 0.76, 0.85, 0.44); */
+    font-size: 22px; 
+    font-family: Helvetica;
+}
+
+img{
+    height: 400px;
+    margin-top: 5rem;
+    margin-left: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    padding: 5px;
+}
+
+.about-everymonth-star{
+    margin-left: 50%;
+    margin-top: -18rem;
+}
+
+.about-everymonth-star .tenof{
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+}
+
+.about-everymonth-star a:nth-child(1){
+    font-size: 25px;
+}
+
+.about-everymonth-star a:nth-child(2){
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.about-everymonth-star h1{
+    margin-top: 20px;
+}
+
+.about-everymonth-star li{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #00000b
+}
+
+.about-everymonth-star .you-can-use-like-this{
+    margin-top: 5rem;
+    margin-left: -80%;
+}
+
+.about-everymonth-star .you-can-use-like-this h2{
+    font-size: 30px;
+    color: #377e66;
+    text-align: center;
+}
+
+.about-everymonth-star p{
+    margin-top: 20px;
+}
+
+.about-everymonth-star .money{
+    background-color: #00000b00;
+}
+
+.about-everymonth-star .you-can-use-like-this li{
+    color: #333836;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.about-everymonth-star .you-can-use-like-this li a{
+    color: #00000b;
+}
+
+@media (max-width: 600px) {
+    img{
+        height: 300px;
+        display: block;
+        margin: auto;
+        border: 1px solid #00000b00;
+        padding-top: 70px;
+    }
+
+    .about-everymonth-star{
+        margin-top: 4rem;
+       margin-left: 0;
+    }
+
+    .about-everymonth-star a:nth-child(1){
+        font-size: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .about-everymonth-star a:nth-child(2){
+        font-size: 20px;
+        display: block;
+        margin: 5px;
+    }
+
+    .about-everymonth-star h1{
+        text-align: center;
+    }
+
+    .about-everymonth-star li{
+        margin-left: 25%;
+    }
+
+    .about-everymonth-star p{
+        font-size: 15px;
+    }
+
+    .about-everymonth-star span{
+        font-size: 15px;
+    }
+
+    .about-everymonth-star .you-can-use-like-this{
+        margin-left: 0;
+    }
+
+    .about-everymonth-star .you-can-use-like-this h2{
+        text-align: center;
+    }
+
+    .about-everymonth-star .you-can-use-like-this li{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .about-everymonth-star .you-can-use-like-this li a{
+        font-size: 20px;
+    } 
+}
+
+@media (max-width: 769px) {
+    img{
+        height: 300px;
+        display: block;
+        margin: auto;
+        border: 1px solid #00000b00;
+        padding-top: 70px;
+    }
+
+    .about-everymonth-star{
+        margin-top: 0rem;
+        margin-left: 0;
+    }
+
+    .about-everymonth-star a:nth-child(1){
+        font-size: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .about-everymonth-star a:nth-child(2){
+        font-size: 20px;
+        display: block;
+        margin: 5px;
+    }
+
+    .about-everymonth-star h1{
+        text-align: center;
+    }
+
+    .about-everymonth-star li{
+        margin-left: 25%;
+    }
+
+    .about-everymonth-star p{
+        font-size: 15px;
+    }
+
+    .about-everymonth-star span{
+        font-size: 15px;
+    }
+
+    .about-everymonth-star .you-can-use-like-this{
+        margin-left: 0;
+    }
+
+    .about-everymonth-star .you-can-use-like-this h2{
+        text-align: center;
+    }
+
+    .about-everymonth-star .you-can-use-like-this li{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .about-everymonth-star .you-can-use-like-this li a{
+        font-size: 20px;
+    } 
+}
+
+@media (max-width: 1025px) {
+    img{
+        height: 400px;
+        display: block;
+        margin: auto;
+        border: 1px solid #00000b00;
+        padding-top: 70px;
+    }
+
+    .about-everymonth-star{
+        margin-top: 3rem;
+       margin-left: 0;
+    }
+
+    .about-everymonth-star a:nth-child(1){
+        font-size: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .about-everymonth-star a:nth-child(2){
+        font-size: 20px;
+        display: block;
+        margin: 5px;
+    }
+
+    .about-everymonth-star h1{
+        margin-left: 25%;
+    }
+
+    .about-everymonth-star li{
+        margin-left: 25%;
+    }
+
+    .about-everymonth-star p{
+        font-size: 15px;
+        margin-left: 5%;
+    }
+
+    .about-everymonth-star span{
+        font-size: 15px;
+    }
+
+    .about-everymonth-star .you-can-use-like-this{
+        margin-left: 5%;
+    }
+
+    .about-everymonth-star .you-can-use-like-this h2{
+        text-align: center;
+    }
+
+    .about-everymonth-star .you-can-use-like-this li{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .about-everymonth-star .you-can-use-like-this li a{
+        font-size: 20px;
+    } 
+}
