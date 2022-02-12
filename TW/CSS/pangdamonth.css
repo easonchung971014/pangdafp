@@ -225,12 +225,6 @@ margin-left: 50%;
     text-align: center;
 }
 
-.footer{
-    padding: 10px;
-    background-color: rgb(231, 231, 231);
-    text-align: center;
-}
-
 
 @media (max-width:600px){
 
