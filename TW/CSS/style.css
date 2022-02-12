@@ -553,25 +553,25 @@ background: linear-gradient(90deg, rgba(146,87,156,0.493) 0%, rgba(146,87,156,0.
         flex:1 1 10px;
         height: 400px;
         width: 300px;
-
-        background-color: #37ad86;
-        box-shadow: 5px 5px 5px rgb(140, 140, 140);
-        border: 1px solid #37ad86;
-
-        border-radius: 20px;
+        /* background-color: #37ad86; */
+        /* box-shadow: 5px 5px 5px rgb(140, 140, 140); */
+        /* border: 1px solid #37ad86; */
+        /* border-radius: 20px; */
         position: relative;
-        overflow: hidden;
+        /* overflow: hidden; */
+        
     }
 
     .gallery .box-container .box img{
         height: 100%;
-        width: 100%;
-        
-        object-fit: cover;
-        border-radius: 20px;
         z-index: 1;
-        height: auto;
-    max-width: 100%;
+        max-width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .gallery .box-container .box img:hover{
+        margin-top: -10px;
+        transition: all .2s ease-in-out;
     }
 
     .gallery .box-container .box .content{
@@ -598,6 +598,12 @@ background: linear-gradient(90deg, rgba(146,87,156,0.493) 0%, rgba(146,87,156,0.
     .gallery .box-container .box p{
         font-size: 30px;
         color:#fff;
+    }
+
+    .gallery .box-container .box a{
+        color:rgb(34, 34, 34);
+        position: absolute;
+        margin-left: 10px;
     }
         
     
@@ -668,26 +674,7 @@ background: linear-gradient(90deg, rgba(146,87,156,0.493) 0%, rgba(146,87,156,0.
 
 
     /* 第八區 footer */       
-    .footer{
-        padding: 10px;
-        background-color: rgb(231, 231, 231);
-        text-align: center;
-        transform: translateY(500px);
-    }
-
-    .footer .social{
-        display: flex;
-        
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
-        
-    }
-
-    .footer .h1{
-        text-align: center;
-    }
+    
     /* 回到上層按鈕 */
     #scroll-up{
         position: fixed;
@@ -929,12 +916,189 @@ width: 320px;
     height: 180px;
     width: 320px;
     margin: auto;
-    transform: translateY(-50%);
+    margin-top: -80rem;
 }
 
 .line-we{
     text-align: center;
-    transform: translateY(-340%)
+    margin-top: -50px;
+}
+        /* 第三區 */
+
+        .single .box-container .box{
+            /* flex-direction: column; */
+            flex:1 1 auto;
+        }
+
+        /* 第四區 */
+
+        .menu .box-container .box{
+             /* flex-direction: column;  */
+            flex:1 1 auto;
+        }        
+        /* 第五區 */
+        .gallery .box-container .box{
+            display: block;
+            height: 300px;
+        }
+
+        .gallery .box-container .box img{
+            display: block;
+            margin: auto;
+        }
+
+        /* 第六區 */
+        .gallery .box-container .box{
+            /* flex-direction: column; */
+            flex:1 1 auto;
+        }
+        /* 第七區 */
+        .order .inputbox .iframe{
+            /* flex-direction: column; */
+            flex:1 1 auto;
+            max-width: 100%;
+            width: auto;
+        }
+    }
+
+    @media (max-width: 1441px){
+        .line img{
+            margin-top: -65rem;
+        }
+    }
+
+    @media (max-width) {
+        .home .content{
+            text-align: center;
+            margin-top: 70px;
+            padding-top:20px;
+
+        }
+        .home img{
+            width: 400px;
+            margin-top:-80px;
+            margin-left: -50px;
+        }
+
+        .btn{
+            width: 100%;
+            z-index:4;
+        }
+
+        /* 新年 */
+        .newYear{
+            display: block;
+            overflow: hidden;
+        }
+    
+        .newYear h1{
+            font-size: 50px;
+            text-align: center;
+        }
+    
+        .newYear .newyear h2{
+            text-align: center;
+            font-size: 1.5rem;
+            transform: translateY(200%);
+        }
+    
+        .newYear .newyear img{
+            height: 200px;
+            width: 350px;
+            border-radius: 20px;
+            display: block;
+            margin: auto;
+        }
+
+        .newYear .newyear img:hover{
+            transform: scale(1.05);
+            transition: .1s;
+        }
+        
+            
+
+/* image */
+.all{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.like{
+    overflow: hidden;
+    border: 1px soild #000;
+    cursor: pointer;
+    height: 180px;
+    width: 320px;
+    margin: auto;
+}
+
+.like img{
+height: 180px;
+width: 320px;
+margin-left: 0px;
+}
+
+.like img:hover{
+    transform: scale(1.1);
+}
+.o{
+font-size: 15px;
+color: transparent;
+margin-left: 0px;
+}
+
+.h2{
+font-size: 10px;
+margin-left: 0px;
+color: transparent;
+}
+
+.singl{
+font-size: 15px;
+margin-left: 0px;
+color: transparent;
+}
+
+.have{
+font-size: 10px;
+margin-left: 0px;
+color: transparent;
+}
+
+.love{
+overflow: hidden;
+border: 1px soild #000;
+cursor: pointer;
+height: 180px;
+width: 320px;
+margin: auto;
+transform: translateY(-50px);
+}
+
+.love img{
+    display: block;
+height: 180px;
+width: 320px;
+
+}
+
+.love img:hover{
+    transform: scale(1.1);
+}
+
+.line img{
+    display: block;
+    height: 180px;
+    width: 320px;
+    margin: auto;
+    margin-top: -80rem;
+}
+
+.line-we{
+    text-align: center;
+    margin-top: -50px;
 }
         /* 第三區 */
 
@@ -966,5 +1130,27 @@ width: 320px;
             flex:1 1 auto;
             max-width: 100%;
             width: auto;
+        }
+    }
+
+    @media (max-width: 376px){
+
+        .line img{
+            margin-top: -79rem;
+        }
+    }
+    @media (max-width: 321px){
+        .newYear .newyear img{
+            height: 150px;
+            width: 300px;
+            border-radius: 20px;
+            display: block;
+            margin: auto;
+        }
+    }
+
+    @media (max-width: 426px) {
+        .line img{
+            margin-top: -80rem;
         }
     }

@@ -379,3 +379,419 @@ margin-left: 50%;
         margin-top: 9rem;
     }
 }
+
+@media (max-width: 700px) {
+    .navbar{
+        position: absolute;
+        top:33px; left:0 ; right:0;
+        /* background-color: #377e66; */
+        height: 50rem;
+        border-top:3px solid rgb(59, 59, 59);
+        /* 隱藏下拉式選單 */
+        clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
+        }
+
+    header .ti{
+        color: rgb(177, 177, 177);
+        font-size: 20px;
+    }
+
+    /* #mySearch{
+        margin-left: 10%;
+        z-index: 1000;
+    }
+
+    #myMenu{
+        margin-top: 3rem;
+        display: block;
+    }
+
+    #myMenu li a{
+        /* 疊起來
+        display: block;
+        font-size:15px;
+        color:rgb(177, 177, 177);
+        background-color: #377e66;
+        background-color: rgb(59, 59, 59);
+        border-bottom:0.4px solid rgb(204, 204, 204);
+    } */
+    header .navbar.active{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        padding:10px;
+    }
+
+.oil{
+margin: 0px;
+}
+
+.oil .pangdafp-logo{
+    display: block;
+    margin: auto;
+    width: 10rem;
+}
+
+.oil .hight{
+    text-align: center;
+}
+
+.oil .everymonth{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.oil .everymonthtitle{
+    display: block;
+    margin: auto;
+    width: 6rem;
+    border-radius: 0;
+}
+
+.oil .lemongrass{
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+.oil .familygood{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.oil .lite{
+    margin-top: -200px;
+    width: 12rem;
+}
+
+.oil .star{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.oil .startitle{
+    display: block;
+    margin: auto;
+    width: 6rem;
+    border-radius: 0;
+}
+
+.oil .monthgood{
+    margin-left: 5%;
+}
+
+.oil .newthing{
+    width: 250px;
+    height: 800px;
+}
+
+.oil .newthing .mess{
+    display: block;
+    margin: auto;
+    margin-top: -70px;
+}
+
+.oil .newthing .image1{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.oil .newthing .tellyou{
+    display: block;
+    margin: auto;
+}
+
+.oil .newthing .image2{
+    display: block;
+    margin: auto;
+    margin-top: -12rem;
+    width: 150px;
+    height: 150px;
+}
+
+.oil .newthing .lock{
+    display: block;
+    padding-top: 10em;
+    margin: auto;
+}
+
+.oil .newthing li{
+    text-align: center;
+    margin-top: 9rem;
+}
+}
+
+@media (max-width: 800px) {
+    .navbar{
+        position: absolute;
+        top:33px; left:0 ; right:0;
+        /* background-color: #377e66; */
+        height: 50rem;
+        border-top:3px solid rgb(59, 59, 59);
+        /* 隱藏下拉式選單 */
+        clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
+        }
+
+    header .ti{
+        color: rgb(177, 177, 177);
+        font-size: 20px;
+    }
+
+    /* #mySearch{
+        margin-left: 10%;
+        z-index: 1000;
+    }
+
+    #myMenu{
+        margin-top: 3rem;
+        display: block;
+    }
+
+    #myMenu li a{
+        /* 疊起來
+        display: block;
+        font-size:15px;
+        color:rgb(177, 177, 177);
+        background-color: #377e66;
+        background-color: rgb(59, 59, 59);
+        border-bottom:0.4px solid rgb(204, 204, 204);
+    } */
+    header .navbar.active{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        padding:10px;
+    }
+
+.oil{
+margin: 0px;
+}
+
+.oil .pangdafp-logo{
+    display: block;
+    margin: auto;
+    width: 10rem;
+}
+
+.oil .hight{
+    text-align: center;
+}
+
+.oil .everymonth{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.oil .everymonthtitle{
+    display: block;
+    margin: auto;
+    width: 6rem;
+    border-radius: 0;
+}
+
+.oil .lemongrass{
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+.oil .familygood{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.oil .lite{
+    margin-top: -200px;
+    width: 12rem;
+}
+
+.oil .star{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.oil .startitle{
+    display: block;
+    margin: auto;
+    width: 6rem;
+    border-radius: 0;
+}
+
+.oil .btn111{
+    text-align: center;
+}
+
+.oil .monthgood{
+    margin-left: 5%;
+}
+
+.oil .newthing{
+    width: 350px;
+    height: 800px;
+}
+
+.oil .newthing .mess{
+    display: block;
+    margin: auto;
+    margin-top: -70px;
+}
+
+.oil .newthing .image1{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.oil .newthing .tellyou{
+    display: block;
+    margin: auto;
+}
+
+.oil .newthing .image2{
+    display: block;
+    margin: auto;
+    margin-top: -12rem;
+    width: 150px;
+    height: 150px;
+}
+
+.oil .newthing .lock{
+    display: block;
+    padding-top: 10em;
+    margin: auto;
+}
+
+.oil .newthing li{
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.oil .fennel{
+    text-align: center;
+    margin: 0px;
+}
+
+.oil .monthgood{
+    text-align: center;
+}
+}
+
+@media (max-width: 900px) {
+    .oil{
+        margin: 0px;
+    }
+    
+        .oil .pangdafp-logo{
+            display: block;
+            margin: auto;
+            width: 10rem;
+        }
+    
+        .oil .hight{
+            text-align: center;
+        }
+    
+        .oil .everymonth{
+            display: block;
+            margin: auto;
+            width: 100%;
+            border-radius: 0px;
+        }
+    
+        .oil .everymonthtitle{
+            display: block;
+            margin: auto;
+            width: 6rem;
+            border-radius: 0;
+        }
+    
+        .oil .lemongrass{
+            text-align: center;
+            padding-top: 20px;
+            display: block;
+            margin: auto;
+        }
+    
+        .oil .familygood{
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+    
+        .oil .lite{
+            margin-top: -200px;
+            width: 12rem;
+        }
+    
+        .oil .star{
+            display: block;
+            margin: auto;
+            width: 100%;
+            border-radius: 0px;
+        }
+    
+        .oil .startitle{
+            display: block;
+            margin: auto;
+            width: 6rem;
+            border-radius: 0;
+        }
+    
+        .oil .monthgood{
+            margin-left: 5%;
+        }
+    
+        .oil .newthing{
+            width: 250px;
+            height: 800px;
+        }
+    
+        .oil .newthing .mess{
+            display: block;
+            margin: auto;
+            margin-top: -70px;
+        }
+    
+        .oil .newthing .image1{
+            display: block;
+            margin: auto;
+            width: 150px;
+            height: 150px;
+        }
+    
+        .oil .newthing .tellyou{
+            display: block;
+            margin: auto;
+        }
+    
+        .oil .newthing .image2{
+            display: block;
+            margin: auto;
+            margin-top: -12rem;
+            width: 150px;
+            height: 150px;
+        }
+    
+        .oil .newthing .lock{
+            display: block;
+            padding-top: 10em;
+            margin: auto;
+        }
+    
+        .oil .newthing li{
+            text-align: center;
+            margin-top: 9rem;
+        }
+    }
+        

@@ -15,7 +15,8 @@ body {
 /* Desktop Nav */
 
 .nav-container {
-    background: rgba(0, 0, 0, 0.8);
+    /* background: #dddddd; */
+    background: #333333;
     height: 44px;
     z-index: 300;
     position: fixed;
@@ -39,7 +40,8 @@ nav .desktop-nav {
 }
 
 nav .desktop-nav li a {
-    color: #fff;
+    /* color: #fff; */
+    color: #72c7ab;
     text-decoration: none;
     font-size: 14px;
     opacity: 0.8;
@@ -409,6 +411,104 @@ nav .desktop-nav li a:hover {
     display: none;
 }
 
+.footer{
+    margin-bottom: 0px; 
+    margin-top: 2rem;
+    height: 31rem;
+    background-color: #f5f5f5;
+}
+
+.footer img{
+    height: 5rem;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.footer .line-121{
+    margin-top: -50px;
+    margin-left: -50px;
+    border-top: 5px solid #72c7ab;
+    height: 5px;
+}
+
+.footer .internet{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 100px;
+    margin-left: 80%;
+}
+
+.footer .internet a{
+    margin-left: 10px;
+    margin-top: 3%;
+    opacity: 0.8;
+}
+
+.footer .internet a:hover{
+    opacity: 1;
+}
+
+.footer .internet-text{
+    display: block;
+    margin-left: 5rem;
+}
+
+.footer .internet-text a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer .internet-text a:hover{
+    color:#368f71;
+    transition: .3s ease-in-out;
+    text-decoration: underline;
+}
+
+
+.footer .about-page{
+    margin-left:50%;
+    margin-top: -150px;
+    
+}
+
+.footer .about-page a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer .about-page a:hover{
+    color: #368f71;
+    transition: .3s ease-in-out;
+    text-decoration: underline;
+}
+
+.footer .user{
+    margin-left: 80%;
+    margin-top: -185px;
+    
+}
+.footer .user a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.footer .we-have{
+    margin-top: 350px;
+    margin-left: 10px;
+}
+
+.footer .we-have img{
+    margin-left: 79.6%;
+    display: block;
+    margin-top: -350px;
+    background-color: #000;
+}
 
 /* Media Queries */
 
@@ -462,6 +562,7 @@ nav .desktop-nav li a:hover {
         transform: translateY(-80px);
         opacity: 0;
         transition: all 700ms ease;
+        color:#fff;
     }
 
     .nav-container.active .desktop-nav li a {
@@ -669,6 +770,156 @@ nav .desktop-nav li a:hover {
 
     .nav-container nav {
         transition: all 400ms ease;
+    }
+
+    .footer{
+        height: 35rem;
+        margin: auto;
+    }
+
+    .footer img{
+        opacity: 0;
+    }
+
+    .footer .line-121{
+        margin-left: 0px;
+    }
+
+    .footer .internet{
+        margin-left: 20px;
+    }
+
+    .footer .internet a{
+        text-align: center;
+    }
+
+    .footer .internet-text{
+        margin-left: 20px;
+    }
+
+    .footer .about-page{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .footer .we-have{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .footer .user{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .footer .user a{
+        display: flex; 
+        margin-left: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+.footer .we-have{
+    margin-left: 20px;
+}
+
+@media (max-width: 784px){
+    .footer .internet{
+        margin-left: 0px;
+    }
+
+    .footer{
+        height:25rem;
+        width: 783px;
+    }
+
+    .footer .line-121{
+        width: 100%;
+        
+    }
+
+    .footer .we-have img{
+        margin-left: 0px;
+        margin-top: -430px;
+        margin-left: 370px;
+    }
+
+    .footer .internet-text{
+        margin-left: 0;
+    }
+
+    .footer .about-page{
+        margin-left: 50%;
+        display: block;
+        margin-top: -150px;
+    }
+
+    .footer .we-have{
+        font-size: 15px;
+        margin-top: -0px;
+        margin-left: 0px;
+    }
+
+    .footer .user{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .footer .user a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 321px) {
+    .footer{
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 32rem;
+    }
+
+    .footer .line-121{
+        width: 100%;
+    }
+
+    .footer .about-page{
+        display: block;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 375px){
+    .footer{
+        height: 32rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer .about-page{
+        display: block;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 556px){
+    footer{
+        display: block;
+        margin: auto;
+        width:100%;
+    }
+
+    .footer .about-page{
+        margin-left: 30%;
+    }
+}
+
+@media(max-width: 372px){
+    .footer .about-page{
+        margin-left: 0;
     }
 }
 
